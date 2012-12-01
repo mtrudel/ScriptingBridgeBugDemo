@@ -13,6 +13,7 @@
 		40FB8624166A90BA00E69C2C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 40FB8622166A90BA00E69C2C /* Credits.rtf */; };
 		40FB8627166A90BA00E69C2C /* COAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FB8626166A90BA00E69C2C /* COAppDelegate.m */; };
 		40FB862A166A90BA00E69C2C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40FB8628166A90BA00E69C2C /* MainMenu.xib */; };
+		40FB8774166A920B00E69C2C /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40FB8773166A920B00E69C2C /* ScriptingBridge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		40FB8625166A90BA00E69C2C /* COAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = COAppDelegate.h; sourceTree = "<group>"; };
 		40FB8626166A90BA00E69C2C /* COAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = COAppDelegate.m; sourceTree = "<group>"; };
 		40FB8629166A90BA00E69C2C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		40FB8772166A919300E69C2C /* OmniGrafflePro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OmniGrafflePro.h; sourceTree = "<group>"; };
+		40FB8773166A920B00E69C2C /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40FB8774166A920B00E69C2C /* ScriptingBridge.framework in Frameworks */,
 				40FB8614166A90BA00E69C2C /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +67,7 @@
 		40FB8612166A90BA00E69C2C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40FB8773166A920B00E69C2C /* ScriptingBridge.framework */,
 				40FB8613166A90BA00E69C2C /* Cocoa.framework */,
 				40FB8615166A90BA00E69C2C /* Other Frameworks */,
 			);
@@ -82,6 +87,7 @@
 		40FB8619166A90BA00E69C2C /* ScriptingBridgeBugDemo */ = {
 			isa = PBXGroup;
 			children = (
+				40FB8772166A919300E69C2C /* OmniGrafflePro.h */,
 				40FB8625166A90BA00E69C2C /* COAppDelegate.h */,
 				40FB8626166A90BA00E69C2C /* COAppDelegate.m */,
 				40FB8628166A90BA00E69C2C /* MainMenu.xib */,
